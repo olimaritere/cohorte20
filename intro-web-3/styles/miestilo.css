@@ -1,0 +1,30 @@
+p {
+    color: blueviolet;
+}
+/*pre {
+    color: aqua;
+}*/
+/*Selector de tipo * */
+*{
+    color:orange;
+}
+em {
+    color: crimson;
+}
+span {
+    color: cadetblue;
+}
+/*Selector de clase*/
+.titulo {
+    color: blue;
+}
+.bl {
+    float:right;
+    background-color: black;
+    color: azure;
+}
+/*Selector de ID*/
+#selector {
+    color: purple;
+}
+

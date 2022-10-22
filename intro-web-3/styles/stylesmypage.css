@@ -1,0 +1,32 @@
+p {
+    color: darkslategrey;
+
+}
+
+pre {
+    color: rgb(3, 24, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+}
+
+em {
+    color: blue;
+
+}
+
+span {
+    color: rgb(4, 51, 14);
+    font-family:cursive;
+    font-size:large;
+    margin: 4cm;
+}
+
+.titulo {
+    color:brown;
+    margin-left: 12cm;
+
+}
+.bl {
+
+}

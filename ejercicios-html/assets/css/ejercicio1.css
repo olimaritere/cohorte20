@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+header {
+    font-size: 2cm;
+    background-color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+p {
+    background-color: rgb(69, 209, 14);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+pre {
+    background-color: yellow;
+    margin-top: 0mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
