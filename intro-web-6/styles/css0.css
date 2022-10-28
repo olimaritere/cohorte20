@@ -1,0 +1,42 @@
+
+.container{
+    background-color: rgb(232, 216, 240);
+    margin-top: 20px;
+}
+.container{
+    margin-top: 10;
+}
+
+.uno{
+    background-color: rgb(123, 214, 120);
+}
+
+.dos{
+    background-color: cadetblue;
+}
+.ancho{
+    background-color: coral;
+}
+.nuno{
+    background-color: rgb(194, 84, 106);
+}
+.ntres{
+    background-color: cyan;
+}
+.vone{
+    background-color: rgb(13, 13, 80);
+    color: antiquewhite;
+}
+.vtwo{
+    background-color: rgb(37, 37, 97);
+    color: rgb(219, 216, 211);
+}
+.vthree{
+    background-color: rgb(84, 84, 153);
+    color: beige;
+}
+.vfour{
+    background-color: rgb(165, 165, 209);
+    color: rgb(51, 51, 99);
+
+}
