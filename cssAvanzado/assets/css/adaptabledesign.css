@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.padre{
+    border: 3px dashed green;
+    /*Hay que activar el dispplay flex para poder usarlo despues*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+
+}
+
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content:space-between;
+}
+.logo{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+
+}
+
+.cuadro{
+    width: 80px;
+    height: 80px;
+
+}
+
+.uno{
+    background-color: rgb(195, 159, 230);
+
+}
+
+.dos{
+    background-color: cornflowerblue;
+}
+
+.tres{
+    background-color: rgb(210, 235, 101);
+
+}
+/*Justify content horizontal
+align items vertical*/
+
+/*
+media query-
+@media (){
+
+}
+condicional, sii se cumple la condición entonces se aplica lo que hay en el query*/
+
+/* 
+450px cel
+800 tablet
+1200 desktop
+*/
+
+@media (max-width: 800px) {
+    .padre{
+        background-color: blueviolet;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    h3{
+        display: none;
+    }
+
+   
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    } 
+}

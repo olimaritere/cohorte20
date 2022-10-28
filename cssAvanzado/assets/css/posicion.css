@@ -1,0 +1,52 @@
+/* position: static; */
+/*relative, tiene como base la possicion original del elemento*/
+/*flexbox y grid*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.padre{
+    border: 3px dashed green;
+    height: 800px;
+    
+}
+
+
+.cuadro{
+   /* border: 2px solid blue;*/
+   border: 2px solid blue;
+   width: 200px;
+   height: 200px;
+   
+}
+
+
+
+.uno{
+    background-color: blue;
+    /*position: relative;*/
+    /*top, left, bottom, right*/
+    /*top: -50px;
+    right: 100px;*/
+}
+
+.dos{
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+
+}
+
+.tres{
+    background-color: green;
+    position: sticky;
+    top: 20px;
+    /*Posicion top, bottom, left, right*/
+    /*debe haber suficiente espacio en su elemento*/
+    
+    
+}
