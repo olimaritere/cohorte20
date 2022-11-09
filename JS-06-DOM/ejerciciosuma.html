@@ -7,23 +7,61 @@
     <title>Suma</title>
 </head>
 <body>
-    <h1>Suma</h1>
-    <form id="formulario">
+    <!-- <h1>Suma</h1>
+    <form id="formularioSuma">
         Primer número <input type="number" name="number1" value="4"><br>
         Segundo número <input type="number" name="number2" value="3">
     </form>
-    <button onclick="mostrarValores()">Resultado</button>
-    <div id="valores"></div>
-<script>
-    function mostrarValores(){
-        let formulario = document.forms["formulario"]
-        let suma = "";
-        for (let elemento of formulario){
-            suma += elemento.value + "<br/>";
+    <button onclick="suma()">Resultado</button><br>
+    <div id="valores"></div> -->
 
+   <!--  <h1>Ejemplo de document write</h1>
+    <button onclick="cambio()">mostrar</button>
+    <script>
+        function cambio(){
+
+            document.write("Saludo");
         }
-        document.getElementById("valores").innerHTML = texto;
+    </script> -->
+    <h1>Dom imagenes</h1>
+
+    <button onclick="cambiar()">cambio</button>
+    <br>
+    <img id="imagen" src="/img/jarro.jpg" alt="jarroNegro">
+
+    <script>
+        function cambiar(){
+
+            document.getElementById("imagen").src = "./Javasc.png"
+        }
+
+
+    </script>
+
+
+
+
+
+<script>
+   /*  function suma(){
+        let formulario = document.forms["formularioSuma"]
+        let resultado = "";
+        let number1 = formulario["number1"];
+        let number2 = formulario["number2"];
+        resultado = parseInt(number1.value) + parseInt(number2.value);
+        console.log(number1.value);
+        console.log(number2.value);
+        console.log(resultado);
+        document.getElementById("valores").innerHTML = resultado;
+
     }
+     */
+    //Manejo de document.write//
+    
+
+
+
+
 </script>    
 </body>
 </html>
