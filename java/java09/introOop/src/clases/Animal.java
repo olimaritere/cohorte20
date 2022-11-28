@@ -1,10 +1,12 @@
 package clases;
 
-public class Animal {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+public class Animal
+{
+	private String raza;
+	private String nombre;
+	private int edad;
+	
+public Animal(String nuevoNombre)
+	
 
 }
